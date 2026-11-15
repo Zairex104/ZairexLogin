@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zairexlogin",
+  "version": "${version}",
+  "name": "ZairexLogin",
+  "description": "Hides your password as asterisks (*) in the chat box when using /login, /l, /reg, /register and /changepassword.",
+  "authors": ["Zairex"],
+  "license": "MIT",
+  "icon": "assets/zairexlogin/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.zairex.login.ZairexLogin"]
+  },
+  "mixins": ["zairexlogin.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
